@@ -10,6 +10,7 @@ class Pets extends React.Component{
     render() {
         return (<FlatList
             data={this.props.list}
+            keyExtractor={(item) => item.id}
             renderItem={({item}) => <Text>{item.name}</Text>}
         />);
     }
