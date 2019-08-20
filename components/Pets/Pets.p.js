@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FlatList, Text } from 'react-native';
+import StyledText from './Pets.styled';;
 
 class Pets extends React.Component{
     componentDidMount() {
@@ -11,7 +12,7 @@ class Pets extends React.Component{
         return (<FlatList
             data={this.props.list}
             keyExtractor={(item) => item.id}
-            renderItem={({item}) => <Text>{item.name}</Text>}
+            renderItem={({item}) => <StyledText>{item.name}</StyledText>}
         />);
     }
 }
