@@ -15,7 +15,7 @@ export default function List() {
 }
 
 List.navigationOptions = {
-  title: 'Links',
+  title: 'List',
 };
 
 const styles = StyleSheet.create({

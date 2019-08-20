@@ -48,7 +48,8 @@ export default function Home(props) {
 
         <View style={styles.getStartedContainer}>
           <Text>Dynamic Navigate</Text>
-          <Button title="Go To List" onPress={() => goToSettings(props.navigation)}/>
+          <Button title="Go To List" onPress={() => goToList(props.navigation)}/>
+
           <Button title="Go To Settings" onPress={() => goToSettings(props.navigation)}/>
         </View>
 
@@ -83,6 +84,10 @@ Home.navigationOptions = {
 
 function goToSettings(navigation) {
   navigation.navigate('Settings')
+}
+
+function goToList(navigation) {
+  navigation.navigate('List')
 }
 
 function DevelopmentModeNotice() {
