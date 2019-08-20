@@ -2,6 +2,30 @@
   "name": "@36node/template-expo",
   "version": "0.0.3",
   "main": "node_modules/expo/AppEntry.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "36node/sketch-tpl-expo",
+    "type": "git"
+  },
+  "template": "expo",
+  "files": [
+    ".circleci",
+    ".expo",
+    "assets",
+    "bin",
+    "mock",
+    "public",
+    "src",
+    ".watchmanconfig",
+    "App.js",
+    "app.json",
+    "babel.config.js",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
