@@ -33,7 +33,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watchAll",
-    "mock-server": "node ./bin/mock-server.js"
+    "mock-server": "node ./bin/mock-server.js",
+    "release": "standard-version"
   },
   "jest": {
     "preset": "jest-expo"
@@ -66,7 +67,7 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^6.0.0",
-    "jest-expo": "^34.0.0"
-  },
-  "private": true
+    "jest-expo": "^34.0.0",
+    "standard-version": "^7.0.0"
+  }
 }
