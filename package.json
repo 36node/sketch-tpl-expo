@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@36node/mock-server": "^0.0.9",
-    "@36node/template-sdk": "^0.10.14",
+    "@36node/template-sdk": "^0.10.27",
     "@expo/samples": "~3.0.3",
     "@expo/vector-icons": "^10.0.3",
     "@react-navigation/web": "^1.0.0-alpha.9",

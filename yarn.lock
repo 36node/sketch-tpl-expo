@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@36node/fetch@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@36node/fetch/-/fetch-0.6.0.tgz#720aba3cd4a4d71652768a0015c6de3ecbcaed01"
-  integrity sha512-JL6CwE+/rR0mT3Ygl4FTxsIGMT8Rr/onMnyNz0ypgEfxcUWzz4R5aakyOq1RXesDUwtijj0Sys/F78LbuF0gIQ==
+"@36node/fetch@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@36node/fetch/-/fetch-0.6.4.tgz#4ed59c3a5a1a61d808b80209c090c01aa153b7f8"
+  integrity sha512-2A2Xc9GlR3yCAlKwaS2bt9bWxVAMz9HkIT+scW7lSZ0iWOcWq2Fog+XWrW+uFkQ76WdbxH4KruKDKyrXD/TD3w==
   dependencies:
     decode-uri-component "^0.2.0"
     http-errors "^1.7.1"
@@ -24,21 +24,21 @@
     lodash "^4.17.11"
     moment "^2.24.0"
 
-"@36node/query-normalizr@^0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@36node/query-normalizr/-/query-normalizr-0.4.6.tgz#9e04db7643accf3d5db5259efb60466f5e1e3ae7"
-  integrity sha512-3AnXxgPEnq9RvI/yOvTirh4lopNdRo+09dhwy7rlDbl6rSupUFhtFauyxqJBxuCYP3FlKYm3kYV9G142tDXayw==
+"@36node/query-normalizr@^0.4.8":
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/@36node/query-normalizr/-/query-normalizr-0.4.8.tgz#481323d4d2d51f3c5fd014e975ee297c0020b856"
+  integrity sha512-hVoU5xHDtV+KaMM1hR7GHq/3TyD39sznB0KrpMqvmWsn+qdXFc4ql6tw0x98jxHGBvyWAhGjIV2KRAnZJq5u4g==
   dependencies:
     humps "^2.0.1"
     lodash "^4.17.11"
 
-"@36node/template-sdk@^0.10.14":
-  version "0.10.14"
-  resolved "https://registry.yarnpkg.com/@36node/template-sdk/-/template-sdk-0.10.14.tgz#a5638eada60e214d39f8e58aa07771653f5b86c4"
-  integrity sha512-XoQpfT7UhB0bx5zkUQ/OX3i6MIIqhPze2fIQaRiC8E27eovIi4eYDXVg7gJt9fT61F18G7rV6uyZ/aRbjfsvMw==
+"@36node/template-sdk@^0.10.27":
+  version "0.10.27"
+  resolved "https://registry.yarnpkg.com/@36node/template-sdk/-/template-sdk-0.10.27.tgz#367d312e8cdeaca07efabe0e6669be3b985e32ef"
+  integrity sha512-iNGKgqhm1HgjBa0s+wwcvulcpXR1TjYTQqAQ+NIG7jQb7TQMvyFjJ0F5Evt9rm42o60niHwMZ+n4fJkt1wuwvg==
   dependencies:
-    "@36node/fetch" "^0.6.0"
-    "@36node/query-normalizr" "^0.4.6"
+    "@36node/fetch" "^0.6.4"
+    "@36node/query-normalizr" "^0.4.8"
     commander "^2.19.0"
 
 "@axetroy/event-emitter.js@^1.2.4":
