@@ -55,7 +55,7 @@
     "expo-font": "~6.0.0",
     "expo-web-browser": "6.0.0",
     "faker": "^4.1.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "normalizr": "^3.4.1",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
